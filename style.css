@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+
+.logo img{
+    width: 100px;
+    margin: 5px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo h1{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.nav-bar{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: inline;
+
+}
+
+.nav-bar ul li{
+    display: inline;
+    padding: 6px;
+    padding-top: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.background-image::before{
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.95)), url(./IMG-20210720-WA0000.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -4;
+}
+
+.background-image{
+    color: white;
+    text-align: center;
+    margin: 10px;
+}
+
+.background-image h1 {
+    font-size: 12px;
+    margin: 0 10px 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-content {
+    margin-top: 10px;
+}
+
+.background-image .learn{
+    padding: 2px;
+    background-color: yellow;
+    border: none;
+    margin: 0 10px 0 10px;
+}
+
+.background-image .learn a{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.background-image .read{
+    padding: 2px;
+    background-color: rgb(77, 219, 77);
+    border: none;
+}
+
+.background-image .read a{
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.content{
+    display: flex;
+    background-color: grey;
+    padding: 10px 5px 0 5px;
+   
+}
+
+.content h1{
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content button{
+    background-color: black;
+    border: none;
+    padding: 10px;
+}
+
+.content button a{
+    text-decoration: none;
+    color: white;
+}
+
+.content-container{
+    margin: 0 10px 0 10px;
+    text-align: center;
+}
+
+.about-us{
+    margin-top: 40px;
+}
+
+.about-us button{
+    background-color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.about-us button a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.volunteer{
+    margin-top: 40px;
+}
+
+.volunteer button{
+    background-color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.volunteer button a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.vaccines-tips{
+    margin-top: 40px;
+}
+
+.vaccines-tips button{
+    background-color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.vaccines-tips button a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    
+}
+
+.footer p{
+    text-align: center;
+    padding-top: 10px;
+}
+
